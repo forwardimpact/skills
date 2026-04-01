@@ -194,31 +194,22 @@ make process-vectors    # Build vector indices from data/resources/
 make process-graphs     # Build graph indices from data/resources/
 ```
 
-### Ingestion
-
-```sh
-make transform          # Transform documents (PDF → HTML)
-make ingest             # Load + pipeline (full ingestion)
-make ingest-load        # Load documents into pipeline
-make ingest-pipeline    # Run ingestion pipeline
-```
-
 ### Data Directories
 
-| Path              | Contents                                   |
-| ----------------- | ------------------------------------------ |
-| `data/knowledge/` | Input HTML files                           |
-| `data/resources/` | Processed resources                        |
-| `data/vectors/`   | Embedding vector indices                   |
-| `data/graphs/`    | RDF quad index + ontology                  |
-| `data/memories/`  | Conversation state                         |
-| `data/traces/`    | Distributed traces                         |
-| `data/policies/`  | Access control policies                    |
-| `data/logs/`      | Service logs                               |
-| `data/cli/`       | CLI session data                           |
-| `data/eval/`      | Evaluation results                         |
-| `data/ingest/`    | Ingestion pipeline (in/pipeline/done)      |
-| `examples/`       | Example datasets (copied to data/ on init) |
+| Path              | Contents                                     |
+| ----------------- | -------------------------------------------- |
+| `data/knowledge/` | Input HTML files                             |
+| `data/resources/` | Processed resources                          |
+| `data/vectors/`   | Embedding vector indices                     |
+| `data/graphs/`    | RDF quad index + ontology                    |
+| `data/memories/`  | Conversation state                           |
+| `data/traces/`    | Distributed traces                           |
+| `data/policies/`  | Access control policies                      |
+| `data/logs/`      | Service logs                                 |
+| `data/cli/`       | CLI session data                             |
+| `data/eval/`      | Evaluation results                           |
+| `data/ingest/`    | Ingestion pipeline (in/pipeline/done)        |
+| `data/pathway/`   | Framework data (created by fit-pathway init) |
 
 ---
 
@@ -275,7 +266,6 @@ agent delegation (`run_sub_agent`, `list_sub_agents`), and handoff control
 ## Docker
 
 ```sh
-make docker             # Build and start full stack
 make docker-build       # Build images only
 make docker-up          # Start core services
 make docker-up-minio    # Start with MinIO storage
@@ -302,18 +292,6 @@ make storage-list       # List storage contents
 
 ---
 
-## Evaluation
-
-```sh
-make eval               # Run evaluation suite
-make eval-report        # Generate evaluation report
-make eval-reset         # Reset evaluation state (logs, traces, memories)
-```
-
-Evaluation config: `config/eval.yml`
-
----
-
 ## Common Tasks
 
 ### Quick Start (New Setup)
@@ -332,7 +310,7 @@ the prose cache directly into `data/`, and processes all resources.
 For individual steps or custom generation:
 
 ```sh
-make generate-full      # Generate with LLM prose (requires LLM_TOKEN)
+make synthetic-update   # Generate with LLM prose (requires LLM_TOKEN)
 make data-init          # Create data directories
 make process            # Full processing including vectors (requires TEI)
 ```

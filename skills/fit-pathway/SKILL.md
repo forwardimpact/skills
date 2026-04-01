@@ -13,8 +13,8 @@ and agent profile generation. Three audiences use `fit-pathway` differently:
 
 | Audience          | Goal                                                | How they run it                                   |
 | ----------------- | --------------------------------------------------- | ------------------------------------------------- |
-| **Maintainers**   | Develop and improve `@forwardimpact/pathway` itself | `npx fit-pathway` from the monorepo workspace     |
-| **Organizations** | Publish a career framework for their engineers      | `npx fit-pathway build` in a standalone project   |
+| **Maintainers**   | Develop and improve `@forwardimpact/pathway` itself | `npx fit-pathway` from the monorepo workspace    |
+| **Organizations** | Publish a career framework for their engineers      | `npx fit-pathway build` in a standalone project  |
 | **Engineers**     | Explore jobs, skills, and career progression        | `fit-pathway` installed globally on their machine |
 
 ## When to Use This Skill
@@ -163,7 +163,7 @@ npx fit-pathway init                          # Create ./data/ with example fram
 npx fit-pathway dev                           # Run live development server (default port 3000)
 npx fit-pathway dev --port=8080               # Dev server on custom port
 npx fit-pathway build --output=./public --url=https://example.com  # Static site
-npx fit-pathway update                        # Update local ~/.fit/pathway/ installation
+npx fit-pathway update                        # Update local ~/.fit/data/pathway/ installation
 npx fit-pathway update --url=URL              # Update from custom source URL
 ```
 
@@ -171,8 +171,8 @@ npx fit-pathway update --url=URL              # Update from custom source URL
 
 All entity commands support three modes:
 
-| Mode    | Pattern                        | Description                 |
-| ------- | ------------------------------ | --------------------------- |
+| Mode    | Pattern                         | Description                 |
+| ------- | ------------------------------- | --------------------------- |
 | Summary | `npx fit-pathway <command>`    | Concise overview with stats |
 | List    | `npx fit-pathway <cmd> --list` | IDs for piping              |
 | Detail  | `npx fit-pathway <cmd> <id>`   | Full entity details         |
@@ -261,11 +261,21 @@ npx fit-pathway dev     # Preview changes in browser
 
 ## Documentation
 
-For deeper context beyond this skill's scope:
+**Before editing YAML framework data**, read the relevant guide — they contain
+detailed examples, field references, and best-practice patterns essential for
+high-quality output.
 
-- [Agent Teams Guide](https://www.forwardimpact.team/docs/guides/agent-teams/index.md)
-  — How to generate and install AI coding agent teams from your career framework
-- [Career Paths Guide](https://www.forwardimpact.team/docs/guides/career-paths/index.md)
+- [Authoring Frameworks Guide](https://www.forwardimpact.team/docs/guides/authoring-frameworks/)
+  — How to write the YAML data: disciplines, levels, tracks, capabilities,
+  skills, behaviours, stages, drivers. Includes proficiency vocabulary
+  standards, co-located human/agent content patterns, checklist quality rules,
+  and validation workflows
+- [Agent Teams Guide](https://www.forwardimpact.team/docs/guides/agent-teams/)
+  — How to generate, structure, and maintain exported agent teams. Covers the
+  three-layer architecture (CLAUDE.md → agent profiles → skills), information
+  flow rules, anti-patterns to avoid, and the maintenance checklist for
+  reviewing exported output
+- [Career Paths Guide](https://www.forwardimpact.team/docs/guides/career-paths/)
   — Browse jobs, skills, and career progression between levels
-- [CLI Reference](https://www.forwardimpact.team/docs/reference/cli/index.md) —
+- [CLI Reference](https://www.forwardimpact.team/docs/reference/cli/) —
   Complete command reference for all Forward Impact CLI tools
