@@ -5,7 +5,7 @@ engineering framework. Install with
 [npx skills](https://github.com/vercel-labs/skills):
 
 ```bash
-npx skills add forwardimpact/skills
+npx skills add forwardimpact/fit-skills
 ```
 
 ## Available Skills
