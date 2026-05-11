@@ -1,11 +1,32 @@
 # Forward Impact Skills
 
 Agent skills for the [Forward Impact](https://forwardimpact.team)
-engineering standard. Install with
-[npx skills](https://github.com/vercel-labs/skills):
+engineering standard.
+
+## Install
+
+With [npx skills](https://github.com/vercel-labs/skills):
 
 ```bash
 npx skills add forwardimpact/fit-skills
+```
+
+With [APM](https://microsoft.github.io/apm/), add to your `apm.yml`:
+
+```yaml
+dependencies:
+  apm:
+    - forwardimpact/fit-skills
+```
+
+Then `apm install` deploys the skills to your active client
+(Claude Code, Copilot, Cursor, OpenCode, Codex, or Gemini). To pull a
+single skill, reference it by path:
+
+```yaml
+dependencies:
+  apm:
+    - forwardimpact/fit-skills/skills/fit-doc
 ```
 
 ## Available Skills
