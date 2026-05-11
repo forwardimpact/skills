@@ -5,6 +5,10 @@ description: >
   creating example agent-aligned engineering standard definitions, organizational documents, activity
   records, or knowledge base content from a terrain DSL file, or when
   testing pipeline changes end-to-end with synthetic datasets.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # fit-terrain CLI

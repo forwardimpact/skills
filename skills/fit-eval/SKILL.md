@@ -5,6 +5,10 @@ description: >
   multi-agent session — and capture every turn as an NDJSON trace. Use for
   agent evaluations (pass/fail verdicts) or agent collaboration (specialists
   coordinating in one session). Pair with `fit-trace` for analysis.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # fit-eval

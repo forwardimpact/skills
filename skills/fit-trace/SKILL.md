@@ -4,6 +4,10 @@ description: >
   Download, query, and analyze agent execution traces. Use when investigating
   agent behavior, debugging workflow failures, or studying how agents use
   tools — covers CLI commands, analysis method, and worked examples.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Trace Analysis

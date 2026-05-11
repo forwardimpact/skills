@@ -6,6 +6,10 @@ description: >
   14-line X+mR chart and applies the three Wheeler detection rules. Use when a
   metric is being tracked over time and the question is whether it has
   changed — covers signal rules, the chart layout, and how to read the report.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # XmR Analysis

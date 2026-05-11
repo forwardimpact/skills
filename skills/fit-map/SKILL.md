@@ -6,6 +6,10 @@ description: >
   levels, and questions. Also covers activity-layer operations: pushing
   people rosters, syncing GetDX snapshots, ingesting GitHub artifacts, and
   verifying the activity database.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Map Product

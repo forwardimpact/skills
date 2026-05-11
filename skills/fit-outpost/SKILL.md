@@ -6,6 +6,10 @@ description: >
   email and calendar, managing email drafts, maintaining a personal
   knowledge base, scheduling background AI tasks, checking agent status,
   waking agents on demand, or initializing and updating a knowledge base.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Outpost Package

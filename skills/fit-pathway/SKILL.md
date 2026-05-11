@@ -6,6 +6,10 @@ description: >
   or comparing job definitions, analyzing career progression gaps, creating
   agent configurations, building a static agent-aligned engineering standard site, or selecting
   interview questions.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Pathway Package

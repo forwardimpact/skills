@@ -7,6 +7,10 @@ description: >
   single points of failure, simulating staffing changes with what-if
   scenarios, aligning individual growth with team gaps, comparing teams, or
   tracking capability trajectory over time.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Summit

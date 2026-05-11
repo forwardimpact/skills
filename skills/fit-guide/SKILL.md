@@ -6,6 +6,10 @@ description: >
   context-specific career guidance, interpreting engineering artifacts
   against skill markers, setting up the Guide service stack, or ingesting
   knowledge content.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Guide Product

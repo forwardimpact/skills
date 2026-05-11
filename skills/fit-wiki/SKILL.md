@@ -4,6 +4,10 @@ description: >
   Manage the Kata agent team wiki: send cross-team memos, refresh storyboard
   XmR charts, bootstrap and sync the wiki. Use when an agent needs to
   communicate with teammates, update storyboard metrics, or sync wiki state.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Wiki Operations

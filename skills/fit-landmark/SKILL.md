@@ -5,6 +5,10 @@ description: >
   Use when checking promotion readiness, exploring GetDX snapshot trends,
   viewing marker evidence, surfacing engineer voice, assessing whether
   culture investments are working, or generating growth recommendations.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # Landmark

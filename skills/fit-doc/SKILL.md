@@ -4,6 +4,10 @@ description: >
   Build static documentation sites from markdown with the fit-doc CLI.
   Use when building, previewing, or configuring a fit-doc site — covers
   commands, front matter, auto-generated outputs, and the pre-build hook.
+license: Apache-2.0
+metadata:
+  version: "0.1.0"
+  author: forwardimpact
 ---
 
 # fit-doc
