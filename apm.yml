@@ -1,0 +1,14 @@
+name: fit-skills
+
+version: 1.0.0
+
+description: >-
+  Agent skills for the Forward Impact engineering standard — twelve skills
+  covering documentation, evaluation, guidance, measurement, mapping, ops,
+  pathways, staffing, synthetic data, trace analysis, wikis, and XmR charts.
+
+author: forwardimpact
+
+license: Apache-2.0
+
+includes: auto
