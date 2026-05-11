@@ -33,6 +33,7 @@ dependencies:
 
 | Skill | Description |
 | --- | --- |
+| **fit-benchmark** | Run coding-agent task families across multiple runs, grade with hidden tests the agent cannot see, and aggregate pass@k across skill-set versions. Use when proving whether a skill-pack change improved coding outcomes. |
 | **fit-doc** | Build static documentation sites from markdown with the fit-doc CLI. Use when building, previewing, or configuring a fit-doc site — covers commands, front matter, auto-generated outputs, and the pre-build hook. |
 | **fit-eval** | Drive a single agent, run a supervisor–agent relay, or facilitate a multi-agent session — and capture every turn as an NDJSON trace. Use for agent evaluations (pass/fail verdicts) or agent collaboration (specialists coordinating in one session). Pair with `fit-trace` for analysis. |
 | **fit-guide** | Ask an AI agent that understands your agent-aligned engineering standard. Use when asking questions about skills, levels, and career expectations, getting context-specific career guidance, interpreting engineering artifacts against skill markers, setting up the Guide service stack, or ingesting knowledge content. |
