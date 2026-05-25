@@ -8,7 +8,7 @@ description: >
   regenerating a dataset after a schema change.
 license: Apache-2.0
 metadata:
-  version: "0.1.2"
+  version: "0.1.3"
   author: forwardimpact
 ---
 
