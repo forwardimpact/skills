@@ -157,7 +157,7 @@ import {
   buildDigest, parseClaims, appendClaim, removeClaim, filterExpired,
   weeklyLogPath, rotateIfOverBudget, appendEntry,
   scanMarkers, renderBlock, renderIssueList,
-  writeMemo, listAgents, WikiRepo, listSkills,
+  writeMemo, listAgents, WikiSync, listSkills,
 } from "@forwardimpact/libwiki";
 ```
 
